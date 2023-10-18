@@ -1,0 +1,15 @@
+{
+  "content_scripts": [
+    {
+      "js": [
+        "script.js"
+      ],
+      "matches": [
+        "https://www.youtube.com/shorts/*"
+      ]
+    }
+  ],
+  "manifest_version": 3,
+  "name": "ChangeViewToOriginal",
+  "version": "1.1.2"
+}
