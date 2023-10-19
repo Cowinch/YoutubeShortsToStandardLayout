@@ -9,9 +9,9 @@ button.style.height= button.style.width = '48px'
 button.style.backgroundColor='#272727'
 button.style.border = 'none'
 button.style.cursor='pointer'
+button.style.marginTop = "16px"
 if(container){
     container.appendChild(button)
-    button.style.paddingTop = "16px"
 } else {
     document.body.appendChild(button)
     button.style.position='absolute'
